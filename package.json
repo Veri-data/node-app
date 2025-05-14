@@ -1,0 +1,25 @@
+{
+  "name": "04_nodeblog",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "connect-flash": "*",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.2.0",
+    "express": "^4.21.2",
+    "express-messages": "*",
+    "express-session": "*",
+    "express-validator": "*",
+    "jade": "^1.9.2",
+    "moment": "*",
+    "mongodb": "*",
+    "monk": "*",
+    "morgan": "^1.10.0",
+    "multer": "*",
+    "serve-favicon": "^2.5.0"
+  }
+}
